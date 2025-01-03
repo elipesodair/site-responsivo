@@ -28,6 +28,17 @@ a{
     line-height: 60px
 
 }
+
+.logo-canto-esquerdo {
+    width: 100px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    top: 10px; /* Ajuste a posição vertical */
+    left: 10px; /* Ajuste a posição horizontal */
+    z-index: 1000; /* Garante que a imagem fique acima de outros elementos */
+}
+
+
+
 body{
     font-family:arial;
     color:#444;
